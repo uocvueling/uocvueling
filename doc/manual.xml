@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V4.5//EN" "/usr/share/xml/docbook/schema/dtd/4.5/docbookx.dtd">
+
+<book lang="es">
+  <title>Manual de navegación de UOCVueling</title>
+  
+  <bookinfo>
+    <title>Proceso de reserva</title>
+    <author>
+      <firstname>Leonardo</firstname>
+      <surname>Bergesio</surname>
+    </author>
+    <volumenum>1</volumenum>
+  </bookinfo>
+  
+  <chapter>
+    <title> Introducción</title>
+    <para> Después de la selección de un vuelo el proceso de reserva se realiza en esta página. El usuario deberá cumplimentar los datos necesarios para emitir los billetes y además terminará de seleccionar opciones extras para su vuelo. En <xref linkend="secciones" /> se describirán las secciones de las que se compone la página. En <xref linkend="realizar"/> se explicará el proceso de reserva y finalmente en <xref linkend="sec_pago"/> el proceso de pago de la reserva realizada.Finalmente el  <xref linkend="sec_ayuda"/> describe los métodos disponibles para conseguir ayuda durante la navegación del sitio y concretamente el proceso de reserva.
+    </para>
+  </chapter>
+  <chapter id="secciones">
+    <title> Secciones</title>
+    <para> En esta sección se describirán brevemente los distintos módulos que componen la página principal de la reserva de vuelo. Servirán como referencia para el <xref linkend="realizar" />.
+    </para>
+    <section>
+      <title> Usuario</title>
+      <para> En este apartado el usuario puede loggearse si ya es un usuario registrado. Para hacerlo deberá ingresar los siguientes datos provistos en la fase de registro: 
+      <itemizedlist>
+	<listitem>
+	  <para>Email</para>
+	</listitem>
+	<listitem>
+	  <para>Contraseña</para>
+	</listitem>
+      </itemizedlist>
+      Después de ralizar este proceso, o si el usuario ya se había registrado en una página anterior, esta sección se transformará como muestra la <xref linkend="sec_usuario_log_img" />, con un mensaje de bienvenida. Además los datos de la <xref linkend="sec_contacto" /> se autocompletarán con los datos del usuario.
+      </para>
+      <figure id="sec_usuario_img">
+	<title>Sección de Usuario</title>
+	<mediaobject>
+	  <imageobject >
+	    <imagedata fileref="../img/sec_usuario.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Sección de usuario</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+      <figure id="sec_usuario_log_img">
+	<title>Sección de Usuario loggeado</title>
+	<mediaobject>
+          <imageobject>
+	    <imagedata fileref="../img/sec_usuario_log.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Usuario loggeado</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+
+    </section>
+    <section>
+      <title> Pasajero</title>
+      <para> Esta sección esta destinada a obtener los datos del pasajero que se imprimirán en el billete. Con este fin se deben introducir los siguientes datos de la persona que realizará el vuelo: 
+      <itemizedlist>
+	<listitem>
+	  <para>Nombre</para>
+	</listitem>
+	<listitem>
+	  <para>Apellidos</para>
+	</listitem>
+      </itemizedlist>
+      </para>
+      <figure id="sec_pasajero_img">
+	<title>Formulario de pasajero</title>
+	<mediaobject>
+          <imageobject>
+	    <imagedata fileref="../img/sec_pasajero.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Formulario de pasajero</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+    </section>
+    <section id="sec_contacto">
+      <title> Contacto</title>
+      <para> Los datos de contacto identifican a la persona que realiza la reserva y que posteriormente realizará el pago de ésta. El formuario de contacto está compuesto por los siguietnes campos que debe rellenar el usario.
+      <itemizedlist>
+	<listitem>
+	  <para>Nombre</para>
+	</listitem>
+	<listitem>
+	  <para>Apellidos</para>
+	</listitem>
+	<listitem>
+	  <para>Email (dos veces)</para>
+	</listitem>
+	<listitem>
+	  <para>Teléfono</para>
+	</listitem>
+	<listitem>
+	  <para>País</para>
+	</listitem>
+	<listitem>
+	  <para>Ciudad</para>
+	</listitem>
+      </itemizedlist>
+      <figure id="sec_contacto_img">
+	<title>Formulario de contacto</title>
+	<mediaobject>
+          <imageobject>
+	    <imagedata fileref="../img/sec_contacto.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Formulario de contacto</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+      <note>
+	<title></title>
+	<para> <emphasis>Nótese que todos los campos están marcados con *, con lo cual son obligatorios. </emphasis></para>
+      </note>
+      </para>
+    </section>
+    <section>
+      <title> Extras</title>
+      <para>En esta sección se pueden seleccionar servicios adicionales en el vuelo para el cual se está haciendo la reserva. Los servicios se seleccionan mediante un simple <emphasis>checkbox</emphasis>, salvo <emphasis>Elegir asiento</emphasis> que requiere de algunos pasos adicionales. Los servicios extras disponibles son:   
+      <itemizedlist>
+	<listitem>
+	  <para>Elegir asiento</para>
+	</listitem>
+	<listitem>
+	  <para>Llevar maleta en el compartimiento de carga</para>
+	</listitem>
+	<listitem>
+	  <para>Bussiness class</para>
+	</listitem>
+	<listitem>
+	  <para>Embarque prioritario</para>
+	</listitem>
+      </itemizedlist>
+      </para>
+      <figure id="sec_extras_img">
+	<title>Selección de servicios extras</title>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="../img/sec_extras.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Selección de servicios extras</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+    </section>
+    <section>
+      <title> Selección de asiento</title>
+      <para> Esta sección es visible únicamente cuando se ha elegido el Extra <emphasis>Elegir asiento</emphasis>. Mediante una utilidad gráfica el usuario es capaz de seleccionar el asiento que desea ocupar en su vuelo.  </para>
+      <figure id="sec_asiento_img">
+	<title>Selección de asiento</title>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="../img/sec_asiento.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Selección de asiento</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+    </section>
+    <section>
+      <title> Vuelo</title>
+      <para>Esta sección es el resumen de las características del vuelo y la reserva que el usuario lleva a cabo. Se actualiza automáticamente cada vez que se produce un cambio en la reserva y sirve como referencia del estado del proceso. En ella se muestran: 
+      <itemizedlist>
+	<listitem>
+	  <para>Detalles del vuelo de ida</para>
+	</listitem>
+	<listitem>
+	  <para>Detalles del vuelo de vuelta</para>
+	</listitem>
+	<listitem>
+	  <para>Extras contratados</para>
+	</listitem>
+	<listitem>
+	  <para>Información adicional de los extras si aplica</para>
+	</listitem>
+	<listitem>
+	  <para>Precio total</para>
+	</listitem>
+      </itemizedlist>
+      </para>
+      <figure id="sec_vuelo_img">
+	<title>Descripción de la reserva</title>
+	<mediaobject>
+          <imageobject>
+	    <imagedata fileref="../img/sec_vuelo.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Descripción de la reserva</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+    </section>
+    <section>
+      <title> Condiciones y pago</title>
+      <para>En esta sección el usuario debe leer ya aceptar las condiciones de uso impuestas por UOCVueling. Al aceptarlas mediante el <emphasis>checkbox</emphasis> y el click en el botón <emphasis>Continuar con los detalles de pago</emphasis> se pasará a la página de pago. </para>
+      <figure id="sec_condiciones_img">
+	<title>Aceptación de las condiciones</title>
+	<mediaobject>
+          <imageobject>
+	    <imagedata fileref="../img/sec_condiciones.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Aceptación de las condiciones</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+    </section>
+  </chapter>
+
+  <chapter id="realizar">
+    <title>Realizar reserva</title>
+    <section>
+      <title> Introducción</title>
+      <para> Una vez descritas las distintas secciones que forman el proceso de reserva en el capítulo anterior, en este capítulo se procederá a explicar el proceso de reserva que se llega a cabo en la página correspondiente que puede visualizarse en  <xref linkend="sec_pagina_img" />.
+      <figure id="sec_pagina_img">
+	<title>Página de reservas</title>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="../img/sec_pagina.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Página de reservas</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+      </para>
+    </section>
+    <section>
+      <title> Proceso</title>
+      <para>  Cuando se accede a la página de reserva que puede verse en <xref linkend="sec_pagina_img" /> el usuario tiene la opción de loggearse en el sitio en caso de ser un usuario registrado. Esto es útil ya que de esta manera no deberá cumplimentar los datos de contacto ya que UOCVueling los recuperará de su perfil de usuario. Por esta razón es altamente recomendable que el usuario se registre y posteriormente se loggee cuando comienza el proceso de reserva. Sin embargo no es un paso obligatorio.</para>
+
+      <para> No es necesario que los pasos descritos a continuación se sigan en el orden extricto documentado en este manual ya que la aplicación irá recopilando la información y sólo permitirá pasar a la siguiente fase cuando cuente con todos los datos necesarios. Sin embargo en este manual se sigue una secuencia lógica tal y como se presenta en la página.</para>
+
+      <para>
+	<orderedlist>
+	<listitem><para>
+Los formualrios de Pasajero y Contacto deben rellenarse en su totalidad. Como ya se explicó los datos del pasajero son destinados a la generación de la tarjeta de embarque y corresponden a la persona que realizará el vuelo. Este formulario debe completarse siempre ya que aunque el usuario que realiza la compra esté loggeado y se tengan sus datos de contacto la persona a viajar puede ser otra. 
+	</para>
+
+      <para>
+La aplicación cuenta con métodos de validación que comprobarán que la información introducida es correcta para algunos de los campos. En muy importante proveer de una dirección de correo electrónico verdadera en los datos de contacto ya que será donde se enviarán las confirmaciones de compra y las tarjetas de embarque. En caso que detectar alguna información incorrecta la apliación devolverá un <emphasis>warning</emphasis> como el de  <xref linkend="warning_img" />. En dicho caso sólo es posible aceptar el mensaje y corregir el campo destacado.
+      <figure id="warning_img">
+	<title>Notificación de error</title>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="../img/warning.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Notificación de error</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+      </para></listitem>
+
+      <listitem><para>
+La selección de servicios extras se hace mediante la selección del <emphasis>checkbox</emphasis> correspondiente a cada servicio. Al seleccionar cualquiera de ellos, la sección de Descripción de la reserva se actualiza automáticamente listando el nuevo servicio como incluído en la reserva. El precio total también se actualiza acordemente. El servicio de <emphasis>Elegir asiento</emphasis> requiere algunos pasos más para su finalización:
+      </para>
+      <para>
+      <itemizedlist>
+	<listitem>
+	  <para>Al seleccionar el checkbox se abrirá en el lateral derecho la sección de Selección de asiento.</para>
+	</listitem>
+	<listitem>
+	  <para>En esta se describe la distribución del avión gráficamente. Los asientos pueden estar en tres estados:
+	  <itemizedlist>
+	    <listitem>
+	      <para>Verde: Asiento disponible</para>
+	    </listitem>
+	    <listitem>
+	      <para>Rojo: Asiento no disponible</para>
+	    </listitem>
+	    <listitem>
+	      <para>Azul: Asiento seleccionado por el usuario.</para>
+	    </listitem>
+	  </itemizedlist>
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>Para seleccionar un asiento sólo es necesario clickear sobre uno disponible. Éste se volverá de color azul. Para finalizar la selección hacer click en <emphasis>Aceptar</emphasis>. En caso de cambiar de opinión es posible cancelar el proceso mediante el botón <emphasis>Cancelar</emphasis>.</para>
+	</listitem>
+	<listitem>
+	  <para>Una vez seleccionado el asiento. la sección de Elegir asiento del módulo Extras se actualizará mostrando el asiento seleccionado y mostrando un botón para cambiarlo mediante el mismo proceso descrito anteriormente. La descripción de la reserva y el precio también se actualiarán con el nuevo extra seleccionado.</para>
+	</listitem>
+      </itemizedlist>
+      </para></listitem>
+
+      <listitem><para>
+Finalmente es indispensable la aceptación de las condiciones de servicio de UOCVueling. Para acceder a las condiciones se debe hacer click dobre <emphasis>condiciones</emphasis> en el texto que acompaña al checkbox. Seguidamente al seleccionarlo y hacer click sobre el botón <emphasis>Continuar con los detalles de pago</emphasis> el proceso de reserva se habrá finalizado y se redigirá a la página de pago que se describirá en el  <xref linkend="sec_pago" />
+      </para></listitem>
+	</orderedlist>
+      </para>
+    </section>
+  </chapter>
+
+  <chapter id="sec_pago">
+   <title>Pago</title>
+   <section>
+     <title>Introducción</title>
+     <para>Esta página es resultado de haber finalizado una reserva. Ahora el usuario deberá proveer los datos de pago para que UOCVueling proceda al cobro del vuelo. La página de pago se puede ver en <xref linkend="sec_pago_img" />.
+      <figure id="sec_pago_img">
+	<title>Página de pago</title>
+	<mediaobject>
+          <imageobject>
+	    <imagedata fileref="../img/sec_pago.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Página de pago</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+     </para>
+   </section>
+   <section>
+     <title>Proceso de pago</title>
+     <para> La primera parte de la página se compone en un resumen del proceso de reserva. En concreto se pueden ver sos secciones:
+     <itemizedlist>
+       <listitem>
+	 <para>Detalles del vuelo: En este bloque se resumen los detalles de los vuelos seleccionados, de los extras seleccionados y el precio total de la reserva. Corresponde con la sección análoga en la página de reserva.</para>
+       </listitem>
+       <listitem>
+	 <para>Detalles del Pasajero y Detalles de Contacto: Resume la información suministrada por el usuario sobre el pasajero y los datos de contacto con el comprador del vuelo.</para>
+       </listitem>
+     </itemizedlist>
+Es posible cambiar esta información accediendo al botón <emphasis>Actualizar datos</emphasis> sin necesidad de abandonar la página de pago. Todos los mecanismos de validación volverán a aplicarse y el mismo mecanismo de notificaciones ya explicado se llevará a cabo.
+     </para>
+
+     <para>
+Finalmente el usuario debe rellenar la información del formilario <emphasis>Datos de pago</emphasis> que puede verse en <xref linkend="datos_pago_img"/>. En concreto estos datos son:
+	  <itemizedlist>
+	    <listitem>
+	      <para>Nº de tarjeta: Formado por 4 bloques de 4 dígitos que se ve en el frontal de la tarjeta de crédito/débito del usuario. Las tarjetas aceptadas actualmente son únicmente VISA en todas sus variedades y MasterCard.</para>
+	    </listitem>
+	    <listitem>
+	      <para>Vencimiento: Fecha en formato XX/YYYY donde XX corresponde al mes e YYYY al año de vencimiento de la tarjeta. Información disponible en el frontal de la tarjeta.</para>
+	    </listitem>
+	    <listitem>
+	      <para>Código de serguridad: Código de seguridad de la tarjeta de crédito localizable en la parte posterior de la tarjeta. Se tratan de tres dígitos.</para>
+	    </listitem>
+	  </itemizedlist>
+      <figure id="datos_pago_img">
+	<title>Datos de pago</title>
+	<mediaobject>
+          <imageobject>
+	    <imagedata fileref="../img/datos_pago.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Datos de pago</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+     </para>
+     <para>
+Una vez introducidos los datos necesarios y comprobado que la reserva y los datos del usuario son correctos se debe hacer click en <emphasis>Confirmar pago y formalizar reserva</emphasis>. Esto redirigirá el navegador a la pasarela de compro de la tarjeta o el banco utilizados. Esta parte del procedimiento depende exclusivamente de la pasarela. Es posible que conlleve el envio de un sms con un código de seguridad el cual deberá ser introducido en la nueva página o algún otro tipo de acciones. Cuando la validación con la entidad bancaria o de la tarjeta concluya se redigirá automáticamente a una página de información de UOCVueling donde se informará del resultado del proceso como puede verse en <xref linkend="final_img"/>.
+      <figure id="final_img">
+	<title>Página de resultado</title>
+	<mediaobject>
+          <imageobject>
+	    <imagedata fileref="../img/final.png"/>
+	  </imageobject>
+          <textobject>
+	    <phrase>Página de resultado</phrase>
+          </textobject>
+	</mediaobject>
+      </figure>
+     </para>
+   </section>
+  </chapter>
+
+
+
+
+  <chapter id="sec_ayuda">
+   <title>Ayuda</title>
+   <section>
+     <title>Introducción</title>
+     <para>En esta sección se describirán los mecanismos de ayuda disponibles durante el proceso de reserva. Todos ellos son accesibles desde la misma aplicación y cuentan con diferentes grados de prontitud de la respuesta.
+     </para>
+   </section>
+   <section>
+     <title>Métodos de ayuda disponibles</title>
+     <para> La primera parte de la página se compone en un resumen del proceso de reserva. En concreto se pueden ver sos secciones:
+      <itemizedlist>
+	<listitem>
+	  <para>Correo electrónico: Para cualquier consulta durante el proceso de la reserva UOCVueling cuenta con una dirección de correo electrónico en la cual puedes hacer llegar tus dudas. Escribe a <email>ayuda@uocvueling.com</email> y contestaremos a la mayor brevedad! o mediante el menú de ayuda: </para>
+	  <para>  <menuchoice><guimenu>Ayuda</guimenu><guimenuitem>Contacta</guimenuitem></menuchoice></para>
+	</listitem>
+	<listitem>
+	  <para>Chat online: En cualquier momento es posible acceder a un chat online donde nuestros operadores moderarán la discusión y donde puedes hacer tus preguntas acerca de tus reservas. Para hacerlo mediante el menú:</para>
+	  <para>  <menuchoice><guimenu>Ayuda</guimenu><guimenuitem>Chat</guimenuitem></menuchoice></para>
+	  <para>
+El chat se abrirá en una nueva ventana para que no se pierda el progreso realizado hasta dicho momento. Ten en cuenta que el chat sólo estará disponible durante nuestro horario laboral, el cual es Lunes-Viernes de 09:00-19:00</para>
+	</listitem>
+	<listitem>
+	  <para>FAQs: Recopilación de preguntas frecuentes con las que nos hemos ido encontrando. La mayoría de las veces resulven las dudas de nuestros usuarios. Es siempre recomendable revisarlas a modo de resolver las dudas de la forma más rápida disponible. Son accesibles de forma:</para>
+	  <para>  <menuchoice><guimenu>Ayuda</guimenu><guimenuitem>FAQs</guimenuitem></menuchoice></para>
+	</listitem>
+	<listitem>
+	  <para>Uoqui: Uoqui es nuestro ayudante virtual. Se llama desde el mismo menú de ayuda:</para>
+	  <para>  <menuchoice><guimenu>Ayuda</guimenu><guimenuitem>Uoqui</guimenuitem></menuchoice></para>
+	  <para> Al clickar sobre él ayudante, podrás elegir escribir tu pregunta y Uoqui intentará obtener la respuesta más acorde y guiarte durante el resto del proceso. Para esconderlo simplemente clicka sobre Uoqui otra vez y clicka en  <emphasis>Gracias por la ayuda</emphasis>.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>Teléfono: Siempre puedes llamarnos por vía telefónica en los horarios ya descritos:</para>
+	  <para>Lunes-Viernes de 09:00 a 19:00</para>
+	</listitem>
+      </itemizedlist>
+     </para>
+   </section>
+
+  </chapter>
+</book> 
